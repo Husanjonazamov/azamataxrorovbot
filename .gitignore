@@ -1,0 +1,32 @@
+# Log fayllari
+*.log
+bot_errors.log
+debug.log
+
+# Konfiguratsiya fayllari
+config.php
+sql.php
+
+# CSV fayllari
+*.csv
+
+# PHP session fayllari
+sessions/
+
+# Temporary fayllari
+tmp/
+temp/
+
+# IDE fayllari
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS fayllari
+.DS_Store
+Thumbs.db
+
+# Backup fayllari
+*.bak
+*.backup
