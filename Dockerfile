@@ -12,5 +12,8 @@ COPY . /var/www/html/
 # Set working directory
 WORKDIR /var/www/html
 
+# Give permissions to www-data user
+RUN chown -R www-data:www-data /var/www/html
+
 # Expose port 80
 EXPOSE 80
